@@ -45,7 +45,7 @@ venv\Scripts\activate
 
 ```bash
 # Install required dependencies
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 ```bash
