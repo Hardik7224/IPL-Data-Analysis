@@ -80,6 +80,7 @@ jupyter notebook
 # │   ├── ipl_eda.ipynb             # Exploratory Data Analysis
 # │
 # ├── README.md
+# ├── Requirements.txt
 ```
 
 ---
