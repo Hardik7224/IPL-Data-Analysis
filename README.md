@@ -100,4 +100,4 @@ jupyter notebook
 - Toss decisions can influence match outcomes  
 - Certain venues favor specific teams  
 - Player performance significantly impacts results  
-- Scoring trends have evolved over IPL seasons  
+- Scoring trends have evolved over IPL seasons
