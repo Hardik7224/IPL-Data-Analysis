@@ -79,6 +79,9 @@ jupyter notebook
 # │   ├── ipl_data_analysis.ipynb   # Combined matches + deliveries analysis
 # │   ├── ipl_eda.ipynb             # Exploratory Data Analysis
 # │
+# ├── powerbi/
+# │   ├── IPL_Analytics_Dashboard.pbix
+# |
 # ├── README.md
 # ├── Requirements.txt
 ```
