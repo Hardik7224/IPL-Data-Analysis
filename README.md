@@ -80,7 +80,7 @@ jupyter notebook
 # │   ├── ipl_eda.ipynb             # Exploratory Data Analysis
 # │
 # ├── powerbi/
-# │   ├── IPL_Analytics_Dashboard.pbix
+# │   ├── IPL_Insights_Dashboard.pbix
 # |
 # ├── README.md
 # ├── Requirements.txt
