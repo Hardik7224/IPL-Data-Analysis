@@ -35,37 +35,63 @@ The project performs detailed Exploratory Data Analysis (EDA), generates insight
 
 ---
 
-## 💻 Installation
+## 💻 Installation & Setup
 
-Open your terminal and run the following commands step by step:
+Follow the steps below to set up and run the project locally.
+
+### 1️⃣ Clone the Repository
 
 ```bash
-# Clone the repository and navigate into it
-git clone https://github.com/Hardik7224/IPL-Data-Analysis.git && cd IPL-Data-Analysis
+git clone https://github.com/Hardik7224/IPL-Data-Analysis.git
+cd IPL-Data-Analysis
 ```
 
+### 2️⃣ Create a Virtual Environment (Optional)
+
 ```bash
-# Create a virtual environment (optional)
 python -m venv venv
 ```
 
+### 3️⃣ Activate the Virtual Environment
+
+**Windows**
+
 ```bash
-# Activate the virtual environment
-# On Linux / macOS:
-source venv/bin/activate
-# On Windows:
 venv\Scripts\activate
 ```
 
+**Linux / macOS**
+
 ```bash
-# Install required dependencies
+source venv/bin/activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r Requirements.txt
 ```
 
+### 5️⃣ Run the Prediction Pipeline
+
 ```bash
-# Run Jupyter Notebook
-jupyter notebook
+python main.py
 ```
+
+### 6️⃣ Launch the Streamlit Dashboard
+
+```bash
+streamlit run app.py
+```
+
+### 7️⃣ Access the Application
+
+Open your browser and navigate to:
+
+```text
+http://localhost:8501
+```
+
 
 ---
 
