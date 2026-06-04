@@ -80,7 +80,7 @@ jupyter notebook
 
 ```bash
 
-```text
+
 IPL-Data-Analysis/
 │
 ├── IPL_Prediction/
