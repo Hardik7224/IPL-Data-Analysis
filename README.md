@@ -42,8 +42,7 @@ Follow the steps below to set up and run the project locally.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Hardik7224/IPL-Data-Analysis.git
-cd IPL-Data-Analysis
+git clone https://github.com/Hardik7224/IPL-Data-Analysis.git && cd IPL-Data-Analysis
 ```
 
 ### 2️⃣ Create a Virtual Environment (Optional)
