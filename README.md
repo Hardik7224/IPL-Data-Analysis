@@ -71,17 +71,25 @@ jupyter notebook
 ```bash
 # 📂 IPL-Data-Analysis/
 # │
-# ├── data/
-# │   ├── matches.csv
-# │   ├── deliveries.csv
+# ├── IPL_Prediction/
+# |        ├──data/
+# |        ├──models/
+# |        ├──src/
+# |        |     ├──__init__.py
+# |        |     ├──match_winner.py
+# |        |     ├──orange_cap.py
+# |        |     ├──purple_cap.py
+# |        |
+# |        ├──app.py
+# |        ├──config.py
+# |        ├──main.py
+# |        ├──predict.py
 # │
-# ├── notebooks/
-# │   ├── ipl_data_analysis.ipynb   # Combined matches + deliveries analysis
-# │   ├── ipl_eda.ipynb             # Exploratory Data Analysis
+# ├──ipl_data_analysis.ipynb
+# ├──ipl_eda.ipynb
+# ├──raw_data.zip
+# ├──processed_data.zip
 # │
-# ├── powerbi/
-# │   ├── IPL_Insights_Dashboard.pbix
-# |
 # ├── README.md
 # ├── Requirements.txt
 ```
