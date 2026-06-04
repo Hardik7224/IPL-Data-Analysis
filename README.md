@@ -7,9 +7,19 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)](https://seaborn.pydata.org/) &nbsp;&nbsp;&nbsp;
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-A **data analysis project on IPL datasets** using **Python**, **Pandas**, **NumPy**, and **data visualization libraries**. This project explores match-level and ball-by-ball data to uncover trends, patterns, and statistical insights in the Indian Premier League (IPL).
+📌 Overview
 
+The IPL Data Analysis & Match Winner Prediction System is an end-to-end Data Analytics and Machine Learning project designed to analyze historical Indian Premier League (IPL) data and predict match outcomes.
+
+The project performs detailed Exploratory Data Analysis (EDA), generates insights about teams and players, visualizes trends using interactive dashboards, and leverages Machine Learning models to predict match winners and season-level achievements.
 ---
+
+## Key Capabilities
+- 📊 IPL Data Analysis
+- 🤖 Match Winner Prediction
+- 🧡 Orange Cap Prediction
+- 💜 Purple Cap Prediction
+- 📉 Team & Player Performance Analytics
 
 ## 🎯 Features
 
@@ -56,53 +66,97 @@ jupyter notebook
 ---
 
 ## 🛠️ Requirements
+- pandas>=1.5.0
+- numpy>=1.23.0
+- scikit-learn>=1.2.0
+- matplotlib>=3.6.0
+- streamlit>=1.25.0
 
-- Python 3.8+  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Jupyter Notebook  
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-# 📂 IPL-Data-Analysis/
-# │
-# ├── IPL_Prediction/
-# |        ├──data/
-# |        ├──models/
-# |        ├──src/
-# |        |     ├──__init__.py
-# |        |     ├──match_winner.py
-# |        |     ├──orange_cap.py
-# |        |     ├──purple_cap.py
-# |        |
-# |        ├──app.py
-# |        ├──config.py
-# |        ├──main.py
-# |        ├──predict.py
-# │
-# ├──ipl_data_analysis.ipynb
-# ├──ipl_eda.ipynb
-# ├──raw_data.zip
-# ├──processed_data.zip
-# │
-# ├── README.md
-# ├── Requirements.txt
+
+```text
+IPL-Data-Analysis/
+│
+├── IPL_Prediction/
+│   │
+│   ├── data/
+│   │
+│   ├── models/
+│   │   ├── winner_model.pkl
+│   │   ├── orange_cap_model.pkl
+│   │   └── purple_cap_model.pkl
+│   │
+│   ├── src/
+│   │   ├── __init__.py
+│   │   ├── match_winner.py
+│   │   ├── orange_cap.py
+│   │   └── purple_cap.py
+│   │
+│   ├── app.py
+│   ├── predict.py
+│   ├── config.py
+│   └── main.py
+│
+├── notebooks/
+│   ├── ipl_data_analysis.ipynb
+│   └── ipl_eda.ipynb
+│
+├── raw_data.zip
+├── processed_data.zip
+├── Requirements.txt
+└──README.md
+
+```
+
 ```
 
 ---
 
-## ⚙️ How It Works
+## 📊 Analysis Performed
 
-1. Loads IPL datasets (`matches` and `deliveries`) using Pandas  
-2. Cleans and preprocesses the data  
-3. Performs exploratory data analysis (EDA)  
-4. Analyzes team performance, player statistics, and match outcomes  
-5. Visualizes insights using Matplotlib and Seaborn  
+### 🏆 Team Analysis
+
+* Most Successful IPL Teams
+* Win Percentage Analysis
+* Home vs Away Performance
+* Team Consistency Evaluation
+
+### 🏟️ Venue Analysis
+
+* Venue-wise Winning Patterns
+* Toss Impact by Stadium
+* Average First Innings Score
+* Venue Performance Trends
+
+### 🏏 Batting Analysis
+
+* Top Run Scorers
+* Strike Rate Comparison
+* Orange Cap Analysis
+* Boundary Statistics
+* Season-wise Batting Performance
+
+### 🎯 Bowling Analysis
+
+* Top Wicket Takers
+* Economy Rate Comparison
+* Purple Cap Analysis
+* Venue-wise Bowling Performance
+* Bowling Impact on Match Outcomes
+
+### 📈 Match Analysis
+
+* Highest Team Totals
+* Highest Successful Chases
+* Super Over Matches
+* Match Outcome Trends
+* Winning Margin Analysis
+* Season-wise Match Statistics
 
 ---
 
@@ -112,3 +166,12 @@ jupyter notebook
 - Certain venues favor specific teams  
 - Player performance significantly impacts results  
 - Scoring trends have evolved over IPL seasons
+
+## 📌 Project Statistics
+
+- Seasons Analyzed: 18+
+- Matches Processed: 1,000+
+- Deliveries Analyzed: 250,000+
+- Teams Analyzed: 10+
+- Players Analyzed: 1,500+
+- Machine Learning Models Trained: 3+
