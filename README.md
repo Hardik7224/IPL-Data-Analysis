@@ -12,6 +12,7 @@
 The IPL Data Analysis & Match Winner Prediction System is an end-to-end Data Analytics and Machine Learning project designed to analyze historical Indian Premier League (IPL) data and predict match outcomes.
 
 The project performs detailed Exploratory Data Analysis (EDA), generates insights about teams and players, visualizes trends using interactive dashboards, and leverages Machine Learning models to predict match winners and season-level achievements.
+
 ---
 
 ## Key Capabilities
