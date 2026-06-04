@@ -114,8 +114,6 @@ IPL-Data-Analysis/
 
 ```
 
-```
-
 ---
 
 ## 📊 Analysis Performed
